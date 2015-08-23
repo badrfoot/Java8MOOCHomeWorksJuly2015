@@ -1,3 +1,4 @@
+package com.github.mooc.java8.homework1;
 /**
  * Copyright © 2014, Oracle and/or its affiliates. All rights reserved.
  *
@@ -104,4 +105,5 @@ public class SolutionsLesson1 {
 
     new Thread(() -> list.forEach(System.out::println)).start();
   }
+  
 }

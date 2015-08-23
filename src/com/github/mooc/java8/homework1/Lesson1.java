@@ -1,3 +1,4 @@
+package com.github.mooc.java8.homework1;
 /**
  * Copyright © 2014, Oracle and/or its affiliates. All rights reserved.
  *
@@ -128,5 +129,8 @@ public class Lesson1 {
   public static void main(String[] args) {
     Lesson1 lesson = new Lesson1();
     lesson.runExercises();
+    
+    System.out.println("\n Official Solution of the exercices");
+    (new SolutionsLesson1()).runExercises();
   }
 }

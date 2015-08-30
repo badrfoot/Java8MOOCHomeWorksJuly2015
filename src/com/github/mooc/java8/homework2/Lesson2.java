@@ -96,8 +96,8 @@ public class Lesson2 {
     String myString= list.stream().
     		skip(1).
     		limit(3).    		
-    		collect(Collectors.joining("-"));  		
-    
+    		collect(Collectors.joining("-"));
+ 
     System.out.println("Result is : " + myString);
   }
 
